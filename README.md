@@ -1,4 +1,4 @@
-# weather App Developed by codeX Team :
+# Weather App Developed by codeX Team :
 This Application is developed from Scratch using HTML5, CSS3 and Js.
 1. Color Palette is used from colorhunt.co
 2. Background Pic used is clicked by our team member.
