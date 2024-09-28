@@ -5,5 +5,5 @@ This Application is developed from Scratch using HTML5, CSS3 and Js.
 3. Movable Pic (gif) is used from Flaticon.
 4. Font is used From Googlefont.
 5. Backend is developed using the help of Chatgpt.
-6. VS code is used as Editor.
+6. VS code is used as CodeEditor.
 
