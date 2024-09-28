@@ -1,0 +1,54 @@
+ <!-- code is developed by codeX team -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="weather-Favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Container for the weather App -->
+    <div class="container">
+        <h1 class="hdr">Weather App</h1>
+        <p class="sub-hdr">Developed by <span class="spn2">codeX</span></p>
+        <input type="text" placeholder="Enter City name" id="city-input">
+        <button id="city-input-btn" onclick="weatherFn($('#city-input').val())">Get Weather</button>
+
+              <!-- Data from Js using openweathermap Api  -->
+
+        <div id="weather-info"
+				class="animate__animated animate__fadeIn">
+				<h3 id="city-name"></h3>
+				<p id="date"></p>
+				<p id="temperature"></p>
+                <img src="weather.gif" alt="weather could icon" style="width:48px;height:48px;">
+				<p id="description"></p>
+				<p id="wind-speed"></p>
+			</div>
+            
+        </div>
+
+        <!-- JavaScript File -->
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js">
+	</script>
+	<script src="https://momentjs.com/downloads/moment.min.js">
+	</script>
+	<script src="script.js"></script>
+    </body>
+    </html>
+
+
+
+
+
+
+
+
+
+
+   
