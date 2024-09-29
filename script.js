@@ -38,3 +38,11 @@ function weatherShowFn(data) {
 			`...`);
 	$('#weather-info').fadeIn();
 }
+{let input = document.getElementById("city-input");
+input.addEventListener("keypress", function(event) {
+  if (event.key === "Enter") {
+    event.preventDefault();
+    document.getElementById("city-input-btn").click();
+  }
+});
+}
